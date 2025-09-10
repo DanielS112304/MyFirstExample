@@ -6,19 +6,21 @@ using std::cout;
 using std::endl;
 
 int main()
-{
+{   
+    cout << "Yo its me, lil d" << endl;
     cout << "Hi, please enter two whole numbers: ";
 
     int x,y;
 
     cin >> x >> y;
-    cout << "Addition: " << x + y << endl;
-    cout << "Subtraction: " << x - y << endl;
-    cout << "Multiplication: " << x * y << endl;
-    cout << "Division: " << x / y << endl;
-    cout << "Remainder: " << x % y << endl;
-    cout << "Square Root: " << sqrt(x) << endl;
-    cout << "Square: " << pow(x, y) << endl;
-
+    cout << x << "+" << y << "=" << x + y << endl;
+    cout << x << "-" << y << "=" << x - y << endl;
+    cout << x << "*" << y << "=" << x * y << endl;
+    cout << x << "/" << y << "=" << x / y << "with a remainder of " << x%y;
+    cout << "Square Root of " << x << " is " << sqrt(x) << endl;
+    cout << "Square Root of " << y << " is " << sqrt(y) << endl;
+    cout << x << "^" << y << "=" << pow(x, y) << endl;
+    
     return 0;
+
 }
